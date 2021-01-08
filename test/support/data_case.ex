@@ -24,6 +24,7 @@ defmodule ProgrammingPhoenix.DataCase do
       import Ecto.Changeset
       import Ecto.Query
       import ProgrammingPhoenix.DataCase
+      import ProgrammingPhoenix.TestHelpers
     end
   end
 

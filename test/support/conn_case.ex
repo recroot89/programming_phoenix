@@ -22,6 +22,7 @@ defmodule ProgrammingPhoenixWeb.ConnCase do
       # Import conveniences for testing with connections
       import Plug.Conn
       import Phoenix.ConnTest
+      import ProgrammingPhoenix.TestHelpers
       import ProgrammingPhoenixWeb.ConnCase
 
       alias ProgrammingPhoenixWeb.Router.Helpers, as: Routes
